@@ -6,4 +6,4 @@ You have to create your telegram bot and set the commands like that:
 3 - close chrome
 4 - turn off pc
 
-Of course you can add other command,and add in the code too.
+Of course you can add other command and add in the code too.
