@@ -14,7 +14,7 @@ def on_chat_message(msg):
         info = msg['from']
         user = info['username']
 
-        if user == 'your telegram's username':
+        if user == 'your telegram s username': #for your security
             if msg['text'] == '/start': #start
                 bot.sendMessage(chat_id, 'hello :D')
 
