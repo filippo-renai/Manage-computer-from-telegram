@@ -25,7 +25,7 @@ def on_chat_message(msg):
 
             elif msg['text'] == '/2': #close web mode
                 op = 0
-                bot.sendMessage(chat_id, 'close web mode,you can't open any link')
+                bot.sendMessage(chat_id, 'close web mode,you can t open any link')
 
             elif msg['text'] == '/3': #close chrome
                 os.system("taskkill /im chrome.exe /f")
