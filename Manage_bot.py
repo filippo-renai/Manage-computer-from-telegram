@@ -5,7 +5,6 @@
 import telepot
 import webbrowser
 import os
-import subprocess
 
 def on_chat_message(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
