@@ -20,7 +20,7 @@ def on_chat_message(msg):
 
             elif msg['text'] == '/1': #open web mode
                 op = 1
-                bot.sendMessage(chat_id, 'now you can paste the link of the web page that you want hope')
+                bot.sendMessage(chat_id, 'now you can paste the link of the web page that you want open')
 
             elif msg['text'] == '/2': #close web mode
                 op = 0
